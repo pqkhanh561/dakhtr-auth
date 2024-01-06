@@ -1,15 +1,10 @@
-package com.dakhtr.auth.models.interfaces;
+package com.dakhtr.auth.model.interfaces;
 
-import com.dakhtr.auth.models.User;
+import com.dakhtr.auth.repository.UserRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-
-import java.sql.Date;
-import java.time.LocalDateTime;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class UserRepositoryTest {
     @Autowired

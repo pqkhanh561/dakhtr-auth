@@ -1,9 +1,9 @@
-package com.dakhtr.auth.services.impl;
+package com.dakhtr.auth.service.impl;
 
-import com.dakhtr.auth.dtos.UserDTO;
-import com.dakhtr.auth.models.User;
-import com.dakhtr.auth.models.interfaces.UserRepository;
-import com.dakhtr.auth.services.UserService;
+import com.dakhtr.auth.dto.UserDTO;
+import com.dakhtr.auth.model.User;
+import com.dakhtr.auth.repository.UserRepository;
+import com.dakhtr.auth.service.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

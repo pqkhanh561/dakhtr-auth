@@ -1,7 +1,7 @@
-package com.dakhtr.auth.controllers;
+package com.dakhtr.auth.controller;
 
-import com.dakhtr.auth.dtos.UserDTO;
-import com.dakhtr.auth.services.UserService;
+import com.dakhtr.auth.dto.UserDTO;
+import com.dakhtr.auth.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

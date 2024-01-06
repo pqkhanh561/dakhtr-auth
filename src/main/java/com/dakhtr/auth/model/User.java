@@ -1,4 +1,4 @@
-package com.dakhtr.auth.models;
+package com.dakhtr.auth.model;
 
 import jakarta.persistence.*;
 

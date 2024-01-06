@@ -1,4 +1,4 @@
-package com.dakhtr.auth.dtos;
+package com.dakhtr.auth.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,6 +1,6 @@
-package com.dakhtr.auth.services;
+package com.dakhtr.auth.service;
 
-import com.dakhtr.auth.dtos.UserDTO;
+import com.dakhtr.auth.dto.UserDTO;
 
 import java.util.List;
 

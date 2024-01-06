@@ -1,6 +1,6 @@
-package com.dakhtr.auth.models.interfaces;
+package com.dakhtr.auth.repository;
 
-import com.dakhtr.auth.models.User;
+import com.dakhtr.auth.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
