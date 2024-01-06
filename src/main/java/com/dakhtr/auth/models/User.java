@@ -21,24 +21,7 @@ public class User {
     @Temporal(TemporalType.DATE)
     private Date updatedOn;
 
-    public User(String firstName,
-                String lastName,
-                String password,
-                String email,
-                boolean active,
-                Date createdOn,
-                String createdBy,
-                String updatedBy,
-                Date updatedOn) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.password = password;
-        this.email = email;
-        this.active = active;
-        this.createdOn = createdOn;
-        this.createdBy = createdBy;
-        this.updatedBy = updatedBy;
-        this.updatedOn = updatedOn;
+    public User() {
     }
 
     public Long getId() {
